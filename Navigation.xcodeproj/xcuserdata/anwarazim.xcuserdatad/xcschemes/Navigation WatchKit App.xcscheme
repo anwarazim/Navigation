@@ -14,6 +14,20 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "E25DCE871AFBDDE200956326"
+               BuildableName = "Navigation WatchKit App.app"
+               BlueprintName = "Navigation WatchKit App"
+               ReferencedContainer = "container:Navigation.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "E25DCE541AFBD40400956326"
                BuildableName = "Navigation.app"
                BlueprintName = "Navigation"
@@ -23,14 +37,14 @@
          <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E25DCE691AFBD40400956326"
-               BuildableName = "NavigationTests.xctest"
-               BlueprintName = "NavigationTests"
+               BlueprintIdentifier = "E25DCE7D1AFBDDE100956326"
+               BuildableName = "Navigation WatchKit Extension.appex"
+               BlueprintName = "Navigation WatchKit Extension"
                ReferencedContainer = "container:Navigation.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -42,23 +56,13 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E25DCE691AFBD40400956326"
-               BuildableName = "NavigationTests.xctest"
-               BlueprintName = "NavigationTests"
-               ReferencedContainer = "container:Navigation.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E25DCE541AFBD40400956326"
-            BuildableName = "Navigation.app"
-            BlueprintName = "Navigation"
+            BlueprintIdentifier = "E25DCE871AFBDDE200956326"
+            BuildableName = "Navigation WatchKit App.app"
+            BlueprintName = "Navigation WatchKit App"
             ReferencedContainer = "container:Navigation.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -72,16 +76,27 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/Navigation">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E25DCE541AFBD40400956326"
-            BuildableName = "Navigation.app"
-            BlueprintName = "Navigation"
+            BlueprintIdentifier = "E25DCE871AFBDDE200956326"
+            BuildableName = "Navigation WatchKit App.app"
+            BlueprintName = "Navigation WatchKit App"
             ReferencedContainer = "container:Navigation.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "E25DCE871AFBDDE200956326"
+            BuildableName = "Navigation WatchKit App.app"
+            BlueprintName = "Navigation WatchKit App"
+            ReferencedContainer = "container:Navigation.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -91,16 +106,27 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/Navigation">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E25DCE541AFBD40400956326"
-            BuildableName = "Navigation.app"
-            BlueprintName = "Navigation"
+            BlueprintIdentifier = "E25DCE871AFBDDE200956326"
+            BuildableName = "Navigation WatchKit App.app"
+            BlueprintName = "Navigation WatchKit App"
             ReferencedContainer = "container:Navigation.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "E25DCE871AFBDDE200956326"
+            BuildableName = "Navigation WatchKit App.app"
+            BlueprintName = "Navigation WatchKit App"
+            ReferencedContainer = "container:Navigation.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
